@@ -3,11 +3,11 @@
 @tailwind utilities;
 
 @layer base {
-
   body {
-    @apply bg-black text-white 
-    relative font-sans h-screen 
-    overflow-x-hidden;
+    @apply text-white relative font-sans h-screen overflow-x-hidden;
+    background-image: url('/fundo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
   }
-
 }

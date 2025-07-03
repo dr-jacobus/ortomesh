@@ -23,14 +23,20 @@ const Hero = () => {
         </div>
 
         {/* Main Heading */}
-        <h1 className='text-3xl sm:text-4x1 md:text-5x1 lg:text-6x1 font-semibold tracking-wider my-8'>
-          DIGITAL TWIN
-          <br />
-          DASHBOARD
-        </h1>
+        <h1
+  className='text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold tracking-wider my-8 text-white'
+  style={{ textShadow: '2px 2px 4px rgba(0,0,0,0.8)' }}
+>
+  DIGITAL TWIN
+  <br />
+  DASHBOARD
+</h1>
 
         {/* Description */}
-        <p className="text-base sm:text-lg tracking-wider text-gray-400 max-w-[25rem] lg:max-w-[30rem]">
+        <p
+  className="text-base sm:text-lg tracking-wider text-white max-w-[25rem] lg:max-w-[30rem]"
+  style={{ textShadow: '2px 2px 4px rgba(0,0,0,0.8)' }}
+>
           The most powerful way to present and communicate medical images. Deliver clarity, enhance patient experience, and drive growth for your practice.
         </p>
 
@@ -38,7 +44,7 @@ const Hero = () => {
         <div className="flex gap-4 mt-12">
           <a
             href="#"
-            className="border border-[#2a2a2a] py-2 sm:py-3 px-4 sm:px-5 rounded-full sm:text-lg text-sm font-semibold tracking-wider transition-all duration-300 hover:bg-[#1a1a1a]"
+            className="border border-[#2a2a2a] py-2 sm:py-3 px-4 sm:px-5 rounded-full sm:text-lg text-sm font-semibold tracking-wider transition-all duration-300 hover:bg-[#1a1a1a] bg-gray-300 text-black hover:text-white"
           >
             Documentation <i className='bx bx-link-external'></i>
           </a>

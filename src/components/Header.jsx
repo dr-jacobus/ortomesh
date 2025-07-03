@@ -20,38 +20,49 @@ const Header = () => {
     
     <h1 data-aos="fade-down"
      data-aos-easing="linear"
-     data-aos-duration="1500" className="text-5x1 md:text-4x1
-    lg:text-5x1 font-extrabold m-0">
+     data-aos-duration="1500" className="text-3xl md:text-4xl
+    lg:text-3xl font-extrabold m-0"
+        style={{ textShadow: '2px 2px 4px rgba(0,0,0,0.8)'}}
+        >
         ORTOMESH
+        
     </h1>
 
     {/* Desktop Navigation */}
     <nav data-aos="fade-down"
      data-aos-easing="linear"
      data-aos-duration="1000" className="hidden md:flex items-center gap-12">
-        <a className="text-base tracking-wider transition-colors hover:text-gray-300 z-50" href="#">
+        <a className="text-base tracking-wider transition-colors hover:text-gray-300 z-50" href="#" 
+        style={{ textShadow: '2px 2px 4px rgba(0,0,0,0.8)'}}
+        >
             COMPANY
         </a>
 
                 <a data-aos="fade-down"
      data-aos-easing="linear"
-     data-aos-duration="1500" className="text-base tracking-wider transition-colors hover:text-gray-300 z-50" href="#">
+     data-aos-duration="1500" className="text-base tracking-wider transition-colors hover:text-gray-300 z-50" href="#"
+     style={{ textShadow: '2px 2px 4px rgba(0,0,0,0.8)'}}
+     >
             FEATURES
         </a>
 
                 <a data-aos="fade-down"
      data-aos-easing="linear"
-     data-aos-duration="2000"  className="text-base tracking-wider transition-colors hover:text-gray-300 z-50" href="#">
+     data-aos-duration="2000"  className="text-base tracking-wider transition-colors hover:text-gray-300 z-50" href="#"
+     style={{ textShadow: '2px 2px 4px rgba(0,0,0,0.8)'}}
+     >
             RESOURCES
         </a>
 
                 <a data-aos="fade-down"
      data-aos-easing="linear"
-     data-aos-duration="2500" className="text-base tracking-wider transition-colors hover:text-gray-300 z-50" href="#">
+     data-aos-duration="2500" className="text-base tracking-wider transition-colors hover:text-gray-300 z-50" href="#"
+     style={{ textShadow: '2px 2px 4px rgba(0,0,0,0.8)'}}
+     >
             DOCS
         </a>
     </nav>
-<button className="hidden md:block bg-[#a7a7a7] text-black py-3 px-8 rounded-full border-none fonte-medium transition-all duration-500 hover:bg-white cursor-pointer z-50">
+<button className="hidden md:block bg-[#dfdddd] text-black py-3 px-8 rounded-full border-none fonte-medium transition-all duration-500 hover:bg-white cursor-pointer z-50">
     SIGNIN
 </button>
 
