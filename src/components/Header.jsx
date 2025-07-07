@@ -48,7 +48,9 @@ const Header = () => {
 
                 <a data-aos="fade-down"
      data-aos-easing="linear"
-     data-aos-duration="2000"  className="text-base tracking-wider transition-colors hover:text-gray-300 z-50" href="#"
+     data-aos-duration="2000"  className="text-base tracking-wider transition-colors hover:text-gray-300 z-50" href="https://dr-jacobus.github.io/ortoview/"
+                    target="_blank"
+  rel="noopener noreferrer"
      style={{ textShadow: '2px 2px 4px rgba(0,0,0,0.8)'}}
      >
             RESOURCES
